@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Initialize the language model (replace with your preferred model)
-llm = ChatOpenAI(model="gpt-4o-mini")  # Or gpt-4 if available
+llm = ChatOpenAI(model="gpt-4o")  # Or gpt-4 if available
 
 # --- Pydantic Models for Data Structures ---
 class PersonalDetails(BaseModel):
