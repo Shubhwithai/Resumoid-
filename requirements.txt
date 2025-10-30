@@ -1,7 +1,8 @@
 streamlit 
-langchain 
+langchain==0.3.27
 python-dotenv 
 PyPDF2 
 matplotlib 
 pydantic
 langchain_openai
+
